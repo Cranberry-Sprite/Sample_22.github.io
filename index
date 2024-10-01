@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/a/ae/FEU_Roosevelt_Logo.png">
+    <title>FEU Roosevelt Cainta: Buwan ng Wika</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E8F5E9;
+            color: #000000;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        header, main, footer {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            animation: fadeIn 2s ease-out;
+        }
+        .header, .footer {
+            color: #f5b718;
+        }
+        .header {
+            text-align: center;
+            background-color: #023020;
+            padding: 40px;
+            animation: fadeIn 2s ease-out;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .article h2 {
+            color: #000000;
+        }
+        .article p, .article ul {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        .article ul {
+            list-style-type: square;
+        }
+        .article img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+        .media-highlights {
+            display: flex;
+            justify-content: space-between; 
+            flex-wrap: wrap; 
+            gap: 15px; 
+        }
+        .media-image {
+            max-width: 100%;
+            flex-basis: calc(33.33% - 10px);
+            height: auto;
+            width: 150px;
+            object-fit: cover;
+            transition: transform 0.3s ease; 
+        }
+        .media-image:hover {
+            transform: scale(1.2); 
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            background-color: #023020;
+            border-radius: 8px;
+            animation: fadeIn 2s ease-out;
+        }
+        .article a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .article a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>FEU Roosevelt Buwan ng Wika</h1>
+    </header>
+
+    <main class="container">
+        <article class="article">
+            <h2>Introduction</h2>
+            <p> Sa araw ng ating Buwan ng Wika sa FEU Roosevelt Cainta, ay nag kaisa ang mga Tamaraws sa pag diriwang ng ating Buwan ng Wika at ng ating kultura
+                sa pamamagitan ng pagta-talumpati, pag-sayaw, at pag-awit. Ang tema ngayon ay "Wikang Mapagpalaya" na ipinakita nating mga Tamaraws ang kahalagaan ng ating Wika, maging tayo man ay Pilipino ipagmalaki natin ang ating sariling Wika.
+                Para saaming Pangunahing Artikulo, i-click <a href="file:///D:/FOR%20ICT%20PROJECT/Transition%20to%20Main%20Article.html">Ito</a>.</p>
+
+            <h2>Event Highlights</h2>
+            <ul>
+                <li>Monologo</li>
+                <li>Movers Limitless</li>
+                <li>Tawag ng Tanghalan</li>
+            </ul>
+
+            <h2>Buwan ng Wika Media Highlights</h2>
+            <div class="media-highlights">
+                <img src="https://i.ibb.co/d7RBsLs/Buwang-Wika.jpg" alt="Buwang-Wika" class="media-image">
+                <img src="monologo 2.jpg" alt="A Local Image" class="media-image">
+                <img src="monologo 3.jpg" alt="A Local Image" class="media-image">
+                <img src="movers 1.jpg" alt="A Local Image" class="media-image">
+                <img src="movers 2.jpg" alt="A Local Image" class="media-image">
+                <img src="movers 3.jpg" alt="A Local Image" class="media-image">
+                <img src="tawag ng tanghalan 1.jpg" alt="A Local Image" class="media-image">
+                <img src="tawag ng tanghalan 2.jpg" alt="A Local Image" class="media-image">
+                <img src="tawag ng tanghalan  3.jpg" alt="A Local Image" class="media-image">
+            </div>
+            <h2>Conclusion</h2>
+            <p></p>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>2024 FEU Roosevelt</p>
+    </footer>
+</body>
+</html>
